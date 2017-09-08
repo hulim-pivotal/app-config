@@ -11,8 +11,8 @@ logging:
     io:
       pivotal: DEBUG
 
-spring: # <---NEW SECTION
-  cloud:
-    services:
-      registrationMethod: direct
+#spring: # <---NEW SECTION, default is route
+#  cloud:
+#    services:
+#      registrationMethod: direct
 
